@@ -33,7 +33,6 @@ var server = http.createServer(function(request, response){
     response.write(`
             <body>
             <h1>标题<h1>
-            <script src="/y.css"></script>
             </body>
             `);
     response.end();
